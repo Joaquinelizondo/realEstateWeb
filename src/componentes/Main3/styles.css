@@ -1,0 +1,115 @@
+.box1 {
+  width: 25vw;
+  height: 30vw;
+  background-color: rgb(43, 40, 40);
+  border-radius: 10%;
+}
+
+.box2 {
+  width: 25vw;
+  height: 30vw;
+  background-color: rgb(43, 40, 40);
+  border-radius: 10%;
+}
+
+.box3 {
+  width: 25vw;
+  height: 30vw;
+  background-color: rgb(43, 40, 40);
+  border-radius: 10%;
+}
+
+.titleplans {
+  color: #fe601e;
+  text-align: right;
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2vw;
+  margin-top: 1vw;
+  align-items: center;
+  text-align: center;
+  gap: 1.5vw;
+}
+
+.boxtitle {
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: #fe601e;
+}
+
+.boxtips {
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 450px) and (max-width: 1000px) {
+  .box1 {
+    width: 60vw;
+    height: 40vw;
+  }
+  .box2 {
+    width: 60vw;
+    height: 40vw;
+  }
+  .box3 {
+    width: 60vw;
+    height: 40vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .boxes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titleplans {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .box1 {
+    width: 60vw;
+    height: 50vw;
+  }
+
+  .box2 {
+    width: 60vw;
+    height: 50vw;
+  }
+
+  .box3 {
+    width: 60vw;
+    height: 50vw;
+  }
+}
+
+.housetag {
+  color: #fe601e !important;
+}
+
+@media (max-width: 400px) {
+  .titleplans {
+    font-size: 6vw;
+  }
+
+  .boxtitle {
+    font-size: 5vw;
+  }
+  .housetag {
+    margin-top: -1vw;
+  }
+}

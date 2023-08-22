@@ -1,0 +1,49 @@
+.main {
+  background-color: white;
+}
+
+.productos {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 5vw;
+  font-size: 20px;
+}
+
+.fotofamilia {
+  opacity: 20%;
+  border-radius: 20px;
+  margin-top: 5vw;
+  width: 50vw;
+  height: 20vw;
+}
+
+h1 {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  margin-top: 8vw;
+  font-weight: 900;
+  margin-left: 13vw;
+  margin-right: 13vw;
+  color: #fe601e;
+}
+
+.foto1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 400px) {
+  .titlemain {
+    font-size: 40px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,93 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1vw;
+  z-index: 10;
+  background-color: #ff7c39;
+}
+
+input {
+  border-radius: 10px;
+  width: 30vw;
+  height: 3vw;
+  border: transparent;
+}
+
+textarea {
+  width: 30vw;
+  height: 20vw;
+  border-radius: 10px;
+  border: transparent;
+}
+
+button {
+  width: 15vw;
+  height: 3.5vw;
+  border-radius: 10px;
+  background-color: rgb(43, 40, 40);
+  border: transparent;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 5vw;
+  font-family: sans-serif;
+}
+
+@media screen and (min-width: 450px) and (max-width: 1000px) {
+  textarea {
+    width: 35vw;
+    height: 25vw;
+    border-radius: 10px;
+    border: transparent;
+  }
+  button {
+    width: 17vw;
+    height: 4.5vw;
+  }
+
+  input {
+    width: 34vw;
+    height: 4vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .formtitle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .form {
+    padding-top: 5vw;
+    margin-top: 10vw;
+  }
+
+  label {
+    font-size: 5vw;
+    margin-top: 2vw;
+  }
+
+  input {
+    border-radius: 10px;
+    width: 60vw;
+    height: 9vw;
+    border: transparent;
+  }
+
+  textarea {
+    width: 60vw;
+    height: 40vw;
+    border-radius: 10px;
+    border: transparent;
+  }
+
+  button {
+    font-size: 25px;
+    width: 35vw;
+    height: 11vw;
+    margin-top: 3vw;
+  }
+}

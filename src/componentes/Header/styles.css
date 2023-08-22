@@ -1,0 +1,160 @@
+body {
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.head1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav1 {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav1:active {
+  color: #ff7c39;
+}
+
+link {
+  color: white !important;
+}
+
+.head11 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  text-decoration-line: none;
+  color: white !important;
+  list-style-type: none;
+}
+
+.navbar {
+  color: white !important;
+  text-decoration-line: none;
+}
+
+.logom {
+  left: 0px;
+  top: 0px;
+}
+
+.mainheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 20vw;
+  background-color: rgb(43, 40, 40);
+  color: white;
+}
+
+.nombre {
+  width: 3vw;
+  height: 2vw;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  color: rgb(210, 47, 7);
+}
+
+.nom {
+  font-size: 20px;
+}
+
+.marca {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+p {
+  color: white;
+  text-decoration: none;
+}
+
+.house-gif {
+  width: 80px;
+  height: 80px;
+  display: flex;
+}
+
+@media screen and (min-width: 450px) and (max-width: 1000px) {
+  .mainheader {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .head1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 8px;
+  }
+
+  .gif {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+
+  .nav1 {
+    font-size: 12px;
+  }
+  .nombre {
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+
+  p {
+    color: white;
+    text-decoration: none;
+    font-size: 8px;
+    letter-spacing: 2px;
+  }
+
+  .nom {
+    font-size: 8px;
+    justify-content: center;
+  }
+
+  .mainheader {
+    display: flex;
+    align-items: center;
+    height: 23vw;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    justify-items: center;
+  }
+
+  .marca {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .house-gif {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+}
