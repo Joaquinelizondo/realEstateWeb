@@ -23,7 +23,6 @@ export const Main2 = (props) => {
         <div>
           <h3 className="titleplanes">Te asesoramos</h3>
         </div>
-
         <p className="textplanes">
           Te asesoramos en las mejores opciones de acuerdo a tus necesidades
         </p>
