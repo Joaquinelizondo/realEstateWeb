@@ -6,6 +6,9 @@ import foto1 from "../../assets/PHOTO-2023-07-21-21-34-14.jpg";
 import foto2 from "../../assets/PHOTO-2023-07-21-21-34-15.jpg";
 import foto3 from "../../assets/PHOTO-2023-07-21-21-34-16.jpg";
 import foto4 from "../../assets/PHOTO-2023-07-21-21-34-23.jpg";
+import foto5 from "../../assets/DEPTO1.jpg";
+import foto6 from "../../assets/DEPTO2.jpg";
+import foto7 from "../../assets/DEPTO3.jpg";
 
 export const Slider1 = () => {
   return (
@@ -58,6 +61,30 @@ export const Slider1 = () => {
         <Slide
           background={{
             backgroundImage: `url(${foto4})`,
+            backgroundAttachment: "fixed",
+            backgroundSize: "100% 100%",
+            backgroundRepeat: "no-repeat",
+          }}
+        />
+        <Slide
+          background={{
+            backgroundImage: `url(${foto5})`,
+            backgroundAttachment: "fixed",
+            backgroundSize: "100% 100%",
+            backgroundRepeat: "no-repeat",
+          }}
+        />
+        <Slide
+          background={{
+            backgroundImage: `url(${foto6})`,
+            backgroundAttachment: "fixed",
+            backgroundSize: "100% 100%",
+            backgroundRepeat: "no-repeat",
+          }}
+        />
+        <Slide
+          background={{
+            backgroundImage: `url(${foto7})`,
             backgroundAttachment: "fixed",
             backgroundSize: "100% 100%",
             backgroundRepeat: "no-repeat",

@@ -29,7 +29,7 @@ img {
   margin: 2vw;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .planes {
     display: flex;
     flex-direction: column;

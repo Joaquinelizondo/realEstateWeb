@@ -51,22 +51,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 450px) and (max-width: 1000px) {
-  .box1 {
-    width: 60vw;
-    height: 40vw;
-  }
-  .box2 {
-    width: 60vw;
-    height: 40vw;
-  }
-  .box3 {
-    width: 60vw;
-    height: 40vw;
-  }
-}
-
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .boxes {
     display: flex;
     flex-direction: column;
@@ -101,7 +86,7 @@
   color: #fe601e !important;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .titleplans {
     font-size: 6vw;
   }

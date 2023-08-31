@@ -38,7 +38,7 @@ h1 {
   align-items: center;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .titlemain {
     font-size: 40px;
   }

@@ -20,7 +20,7 @@
   letter-spacing: 3px;
   color: #ff7c39;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .footer {
     height: 45vw;
     padding-top: 5vw;
