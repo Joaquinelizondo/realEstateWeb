@@ -22,7 +22,7 @@ export const Main1 = (props) => {
           />
           <h3 className="textwwd">
             Brindamos opciones de Inversion en inmuebles para ayudar a nuestros
-            clientes a hacer crecer su Patrimonio y rentabilidad
+            clientes a hacer crecer su Patrimonio y rentabilidad.
           </h3>
         </div>
         <div className="wwd2">
@@ -41,7 +41,7 @@ export const Main1 = (props) => {
             className="icon"
           />
           <h3 className="textwwd">
-            Valoramos tu tiempo para que puedas aprovecharlo al maximo
+            Valoramos tu tiempo para que puedas aprovecharlo al maximo.
           </h3>
         </div>
         <div className="wwd2">

@@ -17,7 +17,7 @@ export const Main3 = () => {
       <div className="box1">
         <h2 className="boxtitle">Plan Individual</h2>
         <p className="boxtips">
-          Invierte tu solo para obtener una excelente rentabilidad
+          Invierte tu solo para obtener una excelente rentabilidad.
         </p>
         <div className="house-tag">
           <img className="housetag" src={persona} />
@@ -27,7 +27,7 @@ export const Main3 = () => {
         <h2 className="boxtitle">Plan Familia</h2>
         <p className="boxtips">
           Invierte junto a miembros de tu familia en donde todos podran ser
-          propietarios
+          propietarios.
         </p>
         <div className="house-tag">
           <img className="housetag" src={familia} />
@@ -36,7 +36,7 @@ export const Main3 = () => {
       <div className="box3">
         <h2 className="boxtitle">Plan Amigos</h2>
         <p className="boxtips">
-          Invierte junto a tus amigos para poder hacer crecer el capital
+          Invierte junto a tus amigos para poder hacer crecer el capital.
         </p>
         <div className="house-tag">
           <img className="housetag" src={grupo} />

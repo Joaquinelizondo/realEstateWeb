@@ -15,7 +15,7 @@ export const Main2 = (props) => {
 
         <p className="textplanes">
           Coordinamos una reunion virtual o presencial para que puedas tener
-          clara toda la informacion
+          clara toda la informacion.
         </p>
       </div>
       <div className="plan">
@@ -24,7 +24,7 @@ export const Main2 = (props) => {
           <h3 className="titleplanes">Te asesoramos</h3>
         </div>
         <p className="textplanes">
-          Te asesoramos en las mejores opciones de acuerdo a tus necesidades
+          Te asesoramos en las mejores opciones de acuerdo a tus necesidades.
         </p>
       </div>
       <div className="plan">
@@ -35,7 +35,7 @@ export const Main2 = (props) => {
 
         <p className="textplanes">
           Luego de la compra de tu propiedad te apoyamos para que puedas tener
-          la mejor rentabilidad de tu inversion
+          la mejor rentabilidad de tu inversion.
         </p>
       </div>
     </div>
