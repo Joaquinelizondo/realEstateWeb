@@ -6,7 +6,13 @@ export const Main1 = (props) => {
   return (
     <div className="wwd-container" id="quienes-somos">
       <div className="wwd-title">
-        <h2>Como agregamos valor a tus inversiones ?</h2>
+        <h2 className="quienes-somos">Quienes somos </h2>
+      </div>
+      <div className="quienes-somos-intro">
+        <p className="quienes-intro">
+          Somos un equipo joven con experienca en el rubro inmobiliario que esta
+          buscando continuamente brindar el mejor servicio a nuestros clientes.
+        </p>
       </div>
       <div className="wwd-container1">
         <div className="wwd1">
