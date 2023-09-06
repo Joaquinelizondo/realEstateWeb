@@ -2,6 +2,9 @@ import React from "react";
 import "./styles.css";
 import { Header } from "../Header/Header";
 import img1 from "../../assets/hand-holding-dollar-solid.svg";
+import person1 from "../../assets/person-shelter-solid.svg";
+import calendar1 from "../../assets/calendar-check-regular.svg";
+import door1 from "../../assets/door-open-solid.svg";
 
 export const Main1 = (props) => {
   return (
@@ -24,26 +27,20 @@ export const Main1 = (props) => {
           </h3>
         </div>
         <div className="wwd2">
-          <img
-            src="../../../src/assets/person-shelter-solid.svg"
-            className="icon"
-          />
+          <img src={person1} className="icon" />
           <h3 className="textwwd">
             Hacemos del negocio inmobiliario la mejor opcion de inversion para
             nuestros clientes.
           </h3>
         </div>
         <div className="wwd1">
-          <img
-            src="../../../src/assets/calendar-check-regular.svg"
-            className="icon"
-          />
+          <img src={calendar1} className="icon" />
           <h3 className="textwwd">
             Valoramos tu tiempo para que puedas aprovecharlo al maximo.
           </h3>
         </div>
         <div className="wwd2">
-          <img src="../../../src/assets/door-open-solid.svg" className="icon" />
+          <img src={door1} className="icon" />
           <h3 className="textwwd">
             Estamos para asesorarte en todos los detalles de tu inversion.
           </h3>
