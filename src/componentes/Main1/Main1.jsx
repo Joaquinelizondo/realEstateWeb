@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import { Header } from "../Header/Header";
+import img1 from "../../assets/hand-holding-dollar-solid.svg";
 
 export const Main1 = (props) => {
   return (
@@ -16,10 +17,7 @@ export const Main1 = (props) => {
       </div>
       <div className="wwd-container1">
         <div className="wwd1">
-          <img
-            src="../../../src/assets/hand-holding-dollar-solid.svg"
-            className="icon"
-          />
+          <img src={img1} className="icon" />
           <h3 className="textwwd">
             Brindamos opciones de Inversion en inmuebles para ayudar a nuestros
             clientes a hacer crecer su Patrimonio y rentabilidad.
