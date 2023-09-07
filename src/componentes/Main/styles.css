@@ -38,6 +38,10 @@ h1 {
   align-items: center;
 }
 
+.mainImg {
+  min-height: 25vw;
+}
+
 @media (max-width: 500px) {
   .titlemain {
     font-size: 40px;
